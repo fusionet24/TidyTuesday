@@ -1,1 +1,2 @@
-install.packages("pacman")
+install.packages("pacman") #install pacman to avoid replication of if package not installed then install package
+pacman::p_load(rvest,tibble,glue,dplyr,tidyr,stringr,magrittr,purrr)# Master list of packages currently used. 
